@@ -4,7 +4,7 @@ node{
   }
   
   stage('Sonar Analysis'){
-    C:\\sonarqube\\sonar-scanner\\bin\\sonar-scanner.bat -Dsonar.projectKey=swapdate -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=5271e396040d31c1c91a8606b01b2b437c2d2051
+    "C:\sonarqube\sonar-scanner\bin\sonar-scanner.bat" -Dsonar.projectKey=swapdate -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.login=5271e396040d31c1c91a8606b01b2b437c2d2051
   }
   
   stage('Email Notification'){
